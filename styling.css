@@ -6,11 +6,11 @@ html{
     }
 
 head{}  
-#frontBackground{
-    width: 100%;
-    background-image: url("Paddle.png");
-    background-repeat: no-repeat;
-    background-size: cover;  
+    #frontBackground{
+        width: 100%;
+        background-image: url("Paddle.png");
+        background-repeat: no-repeat;
+        background-size: cover;  
     }
     #frontDiv{
         position: relative;
@@ -64,11 +64,9 @@ head{}
         border-radius: 1px;
         opacity: 0.5;
     }
-    
-    
-    
+
 .pushClick{
-    width: 20%;
+    width: 5%;
 }
 .rightPush{
     width: 20%;
@@ -83,54 +81,84 @@ head{}
 }
 .WrapUp{
     display: flex;
-    width: 100%;
+    width: 100%;  
+}
+.WrapUp a{
+    text-decoration: none;
+    text-align:center;
+}
+.MySpan{
+    font-size: 33px;
+    color: black;
 }
 
+
+
 body{}
+    /* #abtA{
+        font-size: 43px;
+        font-weight: bold;
+        color: #F4F4F2;
+        text-decoration: none;
+    } */
     #abtClick{
-        width: 20%;
+        width: 16%;
         padding: 150px;
         background-color: #E1E3E0;
         background-image: url("mee.png") ; 
         background-size: cover;
         background-repeat: no-repeat;
-        border-radius: 10px;
-        margin: 5px ;
-        
+        border-radius: 5px;
+
+        color: black;
         font-size: 43px;
         font-weight: bold;
-        color: #F4F4F2;
-        text-align: center;
+       }
+       #abtClick:hover{
+           opacity: 0.5;
+           background-color: green;
+
        }
     #skillClick{
-        width: 20%;
+        width: 16%;
         padding: 150px;
         background-color: #E1E3E0;
         background-image: url("skillss.png") ; 
         background-size: cover;
         background-repeat: no-repeat;
-        border-radius: 10px;
-        margin: 5px;
+        border-radius: 5px;
 
-        text-align: center;
-        color: #F4F4F2;
+        color: black;
         font-size: 43px;
         font-weight: bold;
+
+    }
+    #skillClick:hover{
+        background-color: green;
+        opacity: 0.5;
     }
     #moreClick{
-        width: 20%;
+        width: 16%;
         padding: 150px;
         background-color: #E1E3E0;
-        background-image: url("intr.png") ;
+        background-image: url("intrs.png") ;
         background-size: cover;
         background-repeat: no-repeat;
-        border-radius: 10px;
-        margin: 5px;
+        border-radius: 5px;
 
-        text-align: center;
+        color: black;
         font-size: 43px;
         font-weight: bold;
-        color: #F4F4F2;
+
     }
+    #moreClick:hover{
+        opacity: 0.4;
+        background-color: green;
 
-
+    }
+    #abtMe{
+        width: 100%;
+        background-color:#E1E3E0;
+        height: 100px;
+        text-align: center;
+    }
