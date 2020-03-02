@@ -171,10 +171,10 @@ html{background-color: #CED4D4; scroll-behavior: smooth; }
         width: 60%;
         background-color:#37373D;
         font-size: 25px;
-        color: white;
-        text-align: center;
-        opacity: 0.8;
-        text-indent: 2px;
+        color: #CE9178;
+        text-align: left;
+        opacity: 0.9;
+        text-indent: 0px;
         padding: 40px;
         border-radius: 2px;
     }

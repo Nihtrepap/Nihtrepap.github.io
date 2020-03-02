@@ -7,19 +7,20 @@ window.onload = function() {
 function QuoteFrom(){
     return `<blockquote><h4>2018 were the year when I took interest to coding.
     Took this picture enjoying an Irish coffee while trying to understand the C# language.</h4></blockquote><Br> 
-    <h1>-Philip Abrahamsson, Aspiring Software Developer</h1>`
+    <h1>-Philip Abrahamsson,<Br> Aspiring Software Developer</h1>`
 }
 
 function AboutMe(){
     return `<h2>Aspiring Software Developer !</h2>
     I have been working within the Graphical business for about ten years, 
-    as a printer. But early in 2018 I started to look at programming. Why?
+    as a printer. But early in 2018 I started to look at programming. Why?<br><br>
     Well to start with, I used to be a superuser with the internal programs we used
     at work, and many times started to wonder how the programs were built.
     I made some research and eventually took the step into the world of programming.
+    <br><br>
     A goal to become a Software Developer were set and I started to apply for courses, 
     to get where I am now.
-    <Br>It took some time but I made the courses needed and now im currently
+    It took some time but I made the courses needed and now im currently
     a student who is striving to become better and better within programming. 
     `
 }
