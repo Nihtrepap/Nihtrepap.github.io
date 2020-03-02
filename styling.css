@@ -24,20 +24,20 @@ h2{
 p{font-size: 15px; color: #6A9955;}
 
 /* My Competence */
-.Values{padding-top: 5px; padding-bottom: 5px; }
+.Values{ padding-top: 5px; padding-bottom: 5px; }
 
-.Novice{width: 25%; background-color: #9CDCFE;}
-.AdvBeg{width: 25%; background-color: #CE9178;}
-.Comp{width: 25%; background-color: #D7BA7D;}
-.Expert{width: 25%; background-color: #6A9955;}
+.Novice{width: 20%; background-color: #9CDCFE;}
+.AdvBeg{width: 20%; background-color: #CE9178;}
+.Comp{width: 20%; background-color: #D7BA7D;}
+.Expert{width: 20%; background-color: #6A9955;}
 .Bars{
-    width: 100%;
+    width: 80%;
     background-color: #1E1E1E;
     padding: 0px 0px 10px;
 }
 .Competence{
     padding-top: 7px;
-    padding-bottom: 7px;
+    padding-bottom: 2px;
     color: white;
 }
 .CSharp {width: 23%; background-color: #9CDCFE;}
@@ -176,6 +176,7 @@ html{background-color: #CED4D4; scroll-behavior: smooth; }
         opacity: 0.8;
         text-indent: 2px;
         padding: 40px;
+        border-radius: 2px;
     }
     #mySkill{
         width: 60%;
@@ -196,4 +197,6 @@ html{background-color: #CED4D4; scroll-behavior: smooth; }
         opacity: 0.8;
         text-indent: 2px;
         padding: 40px;
+        border-radius: 2px;
+
     }
