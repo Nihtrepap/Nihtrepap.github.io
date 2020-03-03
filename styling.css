@@ -9,16 +9,16 @@ VS code darkModeBack = 1E1E1E
 VS code greyMarked = 37373D
 VS code yellow = D7BA7D
 */
-
+.fadePic {
+    background-color: #37373D;
+    opacity: 0.8;
+}
+/* Elements */
 html {
     background-color: #fafafa;
     scroll-behavior: smooth;
 }
 
-.fadePic {
-    background-color: #37373D;
-    opacity: 0.8;
-}
 
 head {
     background-color: #37373D;
@@ -41,100 +41,80 @@ p {
     font-size: 15px;
     color: #6A9955;
 }
-
-
 /* My Competence */
 
 .Values {
     padding-top: 5px;
     padding-bottom: 5px;
 }
-
 .Novice {
     width: 20%;
     background-color: #9CDCFE;
 }
-
 .AdvBeg {
     width: 20%;
     background-color: #CE9178;
 }
-
 .Comp {
     width: 20%;
     background-color: #D7BA7D;
 }
-
 .Expert {
     width: 20%;
     background-color: #6A9955;
 }
-
 .Bars {
     width: 80%;
+
     background-color: #1E1E1E;
     padding: 0px 0px 10px;
 }
-
 .Competence {
     padding-top: 7px;
     padding-bottom: 2px;
     color: white;
 }
-
 .CSharp {
     width: 23%;
     background-color: #9CDCFE;
 }
-
 .Python {
     width: 18%;
     background-color: #9CDCFE;
 }
-
 .Html {
     width: 15%;
     background-color: #9CDCFE;
 }
-
 .Css {
     width: 15%;
     background-color: #9CDCFE;
 }
-
 .Js {
     width: 13%;
     background-color: #9CDCFE;
 }
-
 .Xaml {
     width: 12%;
     background-color: #9CDCFE;
 }
-
 .Git {
     width: 18%;
     background-color: #9CDCFE;
 }
-
 .Vs {
     width: 22%;
     background-color: #9CDCFE;
 }
-
 .Wp {
     width: 26%;
     background-color: #CE9178;
 }
-
 .Seo {
     width: 28%;
     background-color: #CE9178;
 }
-
-
-/* HEAD   */
-
+/* HEADER */
 #frontBackground {
     width: 100%;
     background-color: #CED4D4;
@@ -142,7 +122,6 @@ p {
     background-repeat: no-repeat;
     background-size: cover;
 }
-
 #frontDiv {
     width: 50%;
     color: #569CD6;
@@ -185,12 +164,6 @@ p {
 .fa-linkedin:hover {
     opacity: 0.4;
 }
-
-
-/* #quotePush {
-    width: 45%;
-} */
-
 .Quote {
     width: 60%;
     color: #CED4D4;
@@ -201,19 +174,19 @@ p {
     font-weight: 800;
     border-radius: 2px;
 }
+/* Push Elements ( Horisontal ) */
 
 .PushS {
     width: 5%;
 }
-
 .PushM {
     width: 10%;
 }
-
 .LPush {
     width: 20%;
 }
 
+/* Distance Elements ( Vertical ) */
 .Distance {
     padding: 95px;
     position: relative;
@@ -223,12 +196,12 @@ p {
     padding: 22px;
     position: relative;
 }
-
 .MDistance {
     padding: 60px;
     position: relative;
 }
 
+/* Container Element */
 .WrapUp {
     display: flex;
     width: 100%;
@@ -240,13 +213,23 @@ p {
 }
 
 
-/* BODY */
-
+/* BODY Elements*/
 .MySpan {
     font-size: 33px;
     color: #CE9178;
 }
 
+.Arrows{
+    width: 10%;
+    padding: 150px 0px;
+}
+
+.Arrows a{
+    color: #0077b5;
+    font-size: 50px;
+    text-align: right;
+    font-weight: 900;
+}
 #abtClick {
     width: 16%;
     padding: 150px;
@@ -267,7 +250,7 @@ p {
     width: 16%;
     padding: 150px;
     background-color: #E1E3E0;
-    background-image: url("skillss.png");
+    background-image: url("myCoding.png");
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 5px;
@@ -280,8 +263,7 @@ p {
 #moreClick {
     width: 16%;
     padding: 150px;
-    background-color: #E1E3E0;
-    background-image: url("intrs.png");
+    background-image: url("anim/booiling.gif");
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 5px;
@@ -302,26 +284,42 @@ p {
     padding: 40px;
     border-radius: 2px;
 }
-
-#mySkill {
-    width: 60%;
-    background-color: #37373D;
-    font-size: 25px;
-    color: white;
-    text-align: center;
-    opacity: 0.8;
-    text-indent: 2px;
-    padding: 40px;
+#picBackOne{
+    background-image: url("intrs.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    
 }
-
+#picBackTwo{
+    background-image: url("mount.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+}
 #enjoys {
     width: 60%;
+    height: 500px;
     background-color: #37373D;
     font-size: 25px;
-    color: white;
+    color: #CE9178;
     text-align: center;
-    opacity: 0.8;
+    opacity: 0.9;
     text-indent: 2px;
     padding: 40px;
     border-radius: 2px;
+}
+#foot{
+    width: 100%;
+    background-color: #37373D;
+    opacity: 0.8;
+    color: #fafafa;
+    font-size: 30px;
+    text-align: center;
+    padding: 20px;
+}
+
+
+#foot a{
+    text-decoration: none;
+    color: #0077b5;
 }
