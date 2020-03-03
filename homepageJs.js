@@ -4,13 +4,13 @@ window.onload = function() {
     document.getElementById('enjoys').innerHTML = Enjoying()
 }
 
-function QuoteFrom(){
-    return `<blockquote><h4>2018 were the year when I took interest to coding.
-    Took this picture enjoying an Irish coffee while trying to understand the C# language.</h4></blockquote><Br> 
+function QuoteFrom() {
+    return `<h4>
+    Took this picture enjoying an Irish coffee while trying to understand the C# language.</h4><Br> 
     <h1>-Philip Abrahamsson,<Br> Aspiring Software Developer</h1>`
 }
 
-function AboutMe(){
+function AboutMe() {
     return `<h2>Aspiring Software Developer !</h2>
     I have been working within the Graphical business for about ten years, 
     as a printer. But early in 2018 I started to look at programming. Why?<br><br>
@@ -25,9 +25,8 @@ function AboutMe(){
     `
 }
 
-function Enjoying(){
-        return `<h2>When not practicing code</h2>
+function Enjoying() {
+    return `<h2>When not practicing code</h2>
    
         `
-    }
-
+}
