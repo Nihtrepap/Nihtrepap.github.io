@@ -16,16 +16,18 @@ function QuoteFrom() {
 function AboutMe() {
     return `<h2>Aspiring Software Developer !</h2>
     I have been working within the Graphical business for about ten years, 
-    as a printmaker. But early in 2018 I started to look at programming. Why?<br><br>
-    To start with, I used to be a superuser with the internal programs we used
-    at work, and many times started to wonder how the programs were built.
-    I made some research and eventually took the step into the world of programming.
-    <br><br>
-    A goal to become a Software Developer were set and I started to apply for courses, 
-    to get where I am now.
-    <Br><Br>
-    Currently I am a Student who is striving to become better and better within programming. 
-    `
+    as a printmaker. `
+    
+    // But early in 2018 I started to look at programming. Why?<br><br>
+    // To start with, I used to be a superuser with the internal programs we used
+    // at work, and many times started to wonder how the programs were built.
+    // I made some research and eventually took the step into the world of programming.
+    // <br><br>
+    // A goal to become a Software Developer were set and I started to apply for courses, 
+    // to get where I am now.
+    // <Br><Br>
+    // Currently I am a Student who is striving to become better and better within programming. 
+    // `
 }
 function Enjoying() {
     return `<h2>When not practicing code</h2>
