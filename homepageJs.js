@@ -16,19 +16,33 @@ function QuoteFrom() {
 function AboutMe() {
     return `<h2>Aspiring Software Developer !</h2>
     I have been working within the Graphical business for about ten years, 
-    as a printmaker. `
-    
-    // But early in 2018 I started to look at programming. Why?<br><br>
-    // To start with, I used to be a superuser with the internal programs we used
-    // at work, and many times started to wonder how the programs were built.
-    // I made some research and eventually took the step into the world of programming.
-    // <br><br>
-    // A goal to become a Software Developer were set and I started to apply for courses, 
-    // to get where I am now.
-    // <Br><Br>
-    // Currently I am a Student who is striving to become better and better within programming. 
-    // `
+    as a printmaker. But today I am aiming to become something else.<Br><Br>
+
+    Since early in 2018 I have taken courses to reach my new life goal.
+    August 2019 I finally became a student to become a Software Developer, one step 
+    closer to reach my goal.<Br><Br> 
+
+    I like doing small projects as in this homepage, but also in other coding languages.
+    For more code projects check out my GitHub in the upper right corner. But i enjoy projects that not include 
+    coding aswell. We just made a huge renovating at our home, fixing floors and walls.
+    So to become even better and get more understanding of html and css i made this homepage project.
+    <Br><Br>
+    I am an Substitute in our housing society. Where I hold an ongoing project within the
+    society to implement fibre into the two houses. <Br><Br>
+
+    `
+        // But early in 2018 I started to look at programming. Why?<br><br>
+        // To start with, I used to be a superuser with the internal programs we used
+        // at work, and many times started to wonder how the programs were built.
+        // I made some research and eventually took the step into the world of programming.
+        // <br><br>
+        // A goal to become a Software Developer were set and I started to apply for courses, 
+        // to get where I am now.
+        // <Br><Br>
+        // Currently I am a Student who is striving to become better and better within programming. 
+        // `
 }
+
 function Enjoying() {
     return `<h2>When not practicing code</h2>
     I do love food, my favorite dish is not just one, but many! 
@@ -44,7 +58,7 @@ function Enjoying() {
         `
 }
 
-function Footer(){
+function Footer() {
     return `<h2>Thanks for checking out my page</h2><Br>
     Don't miss out my Github or LinkedIn page, you find it in the top right corner.&#129109;
     <Br><Br>As you saw above at the competence bars i have some more experience within

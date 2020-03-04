@@ -9,18 +9,24 @@ VS code darkModeBack = 1E1E1E
 VS code greyMarked = 37373D
 VS code yellow = D7BA7D
 */
+
 .fadePic {
     background-color: #37373D;
     opacity: 0.8;
 }
+
+
 /* Elements */
+
 html {
     background-color: #fafafa;
     scroll-behavior: smooth;
 }
+
 head {
     background-color: #37373D;
 }
+
 h1 {
     color: #569CD6;
     text-align: center;
@@ -31,86 +37,107 @@ h1 {
 h2 {
     color: #569CD6;
     text-align: center;
-    font-size: 35px;
+    font-size: 32px;
 }
 
 p {
-    font-size: 15px;
+    font-size: 14px;
     color: #6A9955;
 }
+
+
 /* My Competence */
+
 .Values {
     padding-top: 5px;
     padding-bottom: 5px;
 }
+
 .Novice {
     width: 20%;
     background-color: #9CDCFE;
 }
+
 .AdvBeg {
     width: 20%;
     background-color: #CE9178;
 }
+
 .Comp {
     width: 20%;
     background-color: #D7BA7D;
 }
+
 .Expert {
     width: 20%;
     background-color: #6A9955;
 }
+
 .Bars {
     width: 80%;
-
     background-color: #1E1E1E;
     padding: 0px 0px 10px;
 }
+
 .Competence {
-    padding-top: 7px;
+    padding-top: 5px;
     padding-bottom: 2px;
     color: white;
 }
+
 .CSharp {
     width: 23%;
     background-color: #9CDCFE;
 }
+
 .Python {
     width: 18%;
     background-color: #9CDCFE;
 }
+
 .Html {
     width: 15%;
     background-color: #9CDCFE;
 }
+
 .Css {
     width: 15%;
     background-color: #9CDCFE;
 }
+
 .Js {
     width: 13%;
     background-color: #9CDCFE;
 }
+
 .Xaml {
     width: 12%;
     background-color: #9CDCFE;
 }
+
 .Git {
     width: 18%;
     background-color: #9CDCFE;
 }
+
 .Vs {
     width: 22%;
     background-color: #9CDCFE;
 }
+
 .Wp {
     width: 26%;
     background-color: #CE9178;
 }
+
 .Seo {
     width: 28%;
     background-color: #CE9178;
 }
+
+
 /* HEADER */
+
 #frontBackground {
     width: 100%;
     background-color: #CED4D4;
@@ -125,6 +152,7 @@ p {
     right: 5%;
     z-index: 1;
 }
+
 .fa {
     padding: 2px;
     text-align: center;
@@ -148,6 +176,7 @@ p {
 .fa-linkedin:hover {
     opacity: 0.4;
 }
+
 .Quote {
     width: 60%;
     color: #CED4D4;
@@ -158,19 +187,40 @@ p {
     font-weight: 800;
     border-radius: 2px;
 }
+
+
+/* Arrow Element */
+
+.Arrows {
+    width: 10%;
+    padding: 150px 0px;
+}
+
+.Arrows a {
+    color: #0077b5;
+    font-size: 50px;
+    text-align: right;
+    font-weight: 900;
+}
+
+
 /* Push Elements ( Horisontal ) */
 
 .PushS {
     width: 5%;
 }
+
 .PushM {
     width: 10%;
 }
+
 .LPush {
     width: 20%;
 }
 
+
 /* Distance Elements ( Vertical ) */
+
 .Distance {
     padding: 95px;
     position: relative;
@@ -180,12 +230,15 @@ p {
     padding: 22px;
     position: relative;
 }
+
 .MDistance {
     padding: 60px;
     position: relative;
 }
 
+
 /* Container Element */
+
 .WrapUp {
     display: flex;
     width: 100%;
@@ -198,27 +251,17 @@ p {
 
 
 /* BODY Elements*/
+
 .MySpan {
     font-size: 33px;
     color: #CE9178;
 }
 
-.Arrows{
-    width: 10%;
-    padding: 150px 0px;
-}
-
-.Arrows a{
-    color: #0077b5;
-    font-size: 50px;
-    text-align: right;
-    font-weight: 900;
-}
 #abtClick {
     width: 16%;
     padding: 150px;
     background-color: #E1E3E0;
-    background-image: url("pics/mee.png");
+    background-image: url("pics/me.png");
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 2px;
@@ -280,20 +323,22 @@ p {
     padding: 40px;
     border-radius: 2px;
 }
-#picBackOne{
+
+#picBackOne {
     background-image: url("pics/intrs.png");
     background-size: contain;
     background-repeat: no-repeat;
-    
 }
-#picBackTwo{
+
+#picBackTwo {
     background-image: url("pics/mount.png");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: right;
 }
-#foot{
-    width: 100%;
+
+#foot {
+    width: 60%;
     background-color: #37373D;
     opacity: 0.8;
     color: #fafafa;
@@ -301,66 +346,61 @@ p {
     text-align: center;
     padding: 20px;
 }
-#foot a{
+
+#foot a {
     text-decoration: none;
     color: #0077b5;
 }
 
- /* ADAPT ELEMENTS WITH PIXELS */
-@media screen and (max-width: 1400px){
+
+/* ADAPT ELEMENTS WITH PIXELS */
+
+@media screen and (max-width: 1400px) {
     #abtClick {
         padding: 120px;
-    
     }
     #compClick {
         padding: 120px;
-
     }
     #moreClick {
         padding: 120px;
-
     }
-    .MySpan{
+    .MySpan {
         font-size: 20px;
     }
-
 }
-@media screen and (max-width: 1130px){
+
+@media screen and (max-width: 1130px) {
     #abtClick {
         padding: 100px;
-    
     }
     #compClick {
         padding: 100px;
-
     }
     #moreClick {
         padding: 100px;
-
     }
-
 }
-@media screen and (max-width: 930px){
+
+@media screen and (max-width: 930px) {
     .Quote {
         font-size: 25px;
     }
-    #picBackTwo{
-background-image: none;   
- }
+    #picBackTwo {
+        background-image: none;
+    }
     #abtClick {
         padding: 85px;
-    
     }
     #compClick {
         padding: 85px;
-
     }
     #moreClick {
         padding: 85px;
-
     }
 }
-@media screen and (max-width: 765px){
+
+@media screen and (max-width: 765px) {
     .MediaWrap {
         font-size: 33px;
         position: fixed;
@@ -383,25 +423,20 @@ background-image: none;
     h1 {
         font-size: 30px;
     }
-    
     h2 {
-
         font-size: 25px;
     }
     #abtClick {
         width: 16%;
         padding: 50px;
-    
     }
     #compClick {
         width: 16%;
         padding: 50px;
-
     }
     #moreClick {
         width: 16%;
         padding: 50px;
-
     }
     #abtMe {
         width: 60%;
@@ -409,25 +444,21 @@ background-image: none;
         font-size: 16px;
         color: #CE9178;
         padding: 40px;
-      
     }
     #enjoys {
         font-size: 16px;
         height: 900px;
-
     }
- 
- 
-    .MySpan{
+    .MySpan {
         font-size: 11px;
     }
-    #foot{
+    #foot {
         font-size: 16px;
     }
 }
-@media screen and (max-width: 600px){
-    #picBackTwo{
-        background-image: url("pics/mount.png");   
-         }
- 
+
+@media screen and (max-width: 600px) {
+    #picBackTwo {
+        background-image: url("pics/mount.png");
+    }
 }
