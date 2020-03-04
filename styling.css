@@ -17,6 +17,9 @@ VS code yellow = D7BA7D
 
 
 /* Elements */
+body {
+    font-family: 'Calibri','Times New Roman', Times, serif;
+}
 
 html {
     background-color: #fafafa;
@@ -293,6 +296,7 @@ p {
     background-image: url("anim/booiling.gif");
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
     border-radius: 2px;
 }
 
@@ -401,6 +405,7 @@ p {
 }
 
 @media screen and (max-width: 765px) {
+
     .MediaWrap {
         font-size: 33px;
         position: fixed;
@@ -458,6 +463,64 @@ p {
 }
 
 @media screen and (max-width: 600px) {
+    .LPush {
+        width: 0%;
+    }
+  
+    .PushM {
+        width: 0%;
+    }
+    
+    .PushS {
+        width: 4%;
+    }
+    .MobPush{
+        width: 10%;
+    }
+    .MobPushL{
+        width: 20%;
+    }
+    
+  
+    
+    .Distance{
+        padding: 60px;
+    }
+    #abtClick {
+        width: 33%;
+        height: 70px;
+    }
+    
+    #compClick {
+        width: 33%;
+        height: 70px;
+    }
+    #moreClick {
+        width: 33%;
+        height: 70px;
+    }
+    #enjoys {
+        font-size: 16px;
+        height: 800px;
+    }
+    .MediaWrap {
+        font-size: 33px;
+        position: fixed;
+        z-index: 1;
+    }
+    .Arrows {
+        width: 10%;
+        padding: 400px 0px 0px;
+    }
+    .Arrows a {
+        color: #0077b5;
+        font-size: 40px;
+        font-weight: 700;
+        
+    }
+    
+
+    
     #picBackTwo {
         background-image: url("pics/mount.png");
     }
