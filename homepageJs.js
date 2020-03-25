@@ -43,7 +43,7 @@ function AboutMe() {
         // to get where I am now.
         // <Br><Br>
         // Currently I am a Student who is striving to become better and better within programming. 
-        // `
+        // `///
 }
 
 function Enjoying() {
