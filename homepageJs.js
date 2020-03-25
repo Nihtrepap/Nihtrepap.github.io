@@ -14,23 +14,23 @@ function QuoteFrom() {
 }
 
 function AboutMe() {
-    return `<h2>Aspiring Software Developer !</h2>
+    return `<h2>Aspiring Software Developer!</h2>
     I have been working within the Graphical business for about ten years, 
     as a printmaker. But today I am aiming to become something else.
 
     Since early in 2018 I have taken courses to reach my new life goal.
-    August 2019 I finally became a student to become a Software Developer, one step 
-    closer to reach my goal.<Br><Br> 
+    In August 2019 I finally became a student to become a Software Developer, one step 
+    closer to reaching my goal.<Br><Br> 
 
     I like doing small projects as in this homepage, but also in other coding languages.
-    So to become even better and get more understanding of html and css i made this homepage project.
+    So to become even better and increase my understanding of html and css i made this homepage project.
     More code projects can be found on my GitHub link in the upper right corner.  <Br><Br>
-    Projects not including any coding happens aswell. For example, we just made a huge renovation 
+    Projects not including any coding happens as well. For example, we just made a huge renovation 
     project at our home, fixing floors, ceiling and walls.
-    As an Substitute in our housing society I hold an ongoing project to implement fibre 
+    As a Substitute in our housing society I hold an ongoing project to implement fibre 
     into the two houses of our society. <Br><Br> Another side project I have is to help my partner
-    with her company. So to help her i made her a homepage with Wordpress and took a small course
-    about SEO.(search engine optimization)More about that later on the page.<Br><Br>
+    with her company. So to help her I made a homepage with Wordpress and took a small course
+    about SEO(search engine optimization).More about that later on the page.<Br><Br>
     Well that is a little bit about my projects. Up next is my competence level.
 
     `
@@ -49,17 +49,17 @@ function AboutMe() {
 function Enjoying() {
     return `<h2>When not practicing code</h2>
     I do love food, my favorite dish is not just one, but many! 
-    From a bowl with ramen to a box with pizza. Sadly I am not the best chef, but I 
+    From a bowl of ramen to a box with pizza. Sadly I am not the best chef, but I 
     sure make one hell of a good sushi.<Br><Br> 
 
-    Going outside for a hike, even just a day trip is
-    something that I started to like more and more. Find a nice place, boil some water, drink
+    Going outside for a hike, even just a daytrip is
+    something that I've started to enjoy more and more. Find a nice place, boil some water, drink
     some nice tea or coffe and make some food over the fire. That is relaxing.<Br><Br>
 
     Working out, as in going to the gym is also something I enjoy very much. To hit the gym and lift some
     weights, listen to some nice music, just makes you feel good. <Br><Br>
 
-    Gaming is something I have done since the 8bit Nintendo. Nowdays I use the Ps4, but mostly
+    Gaming is something I have done since the 8bit Nintendo. Nowadays I use the Ps4, but mostly
     I am at the PC. (PCM)<Br><Br><Br><Br>
         `
 }
@@ -68,8 +68,8 @@ function Footer() {
     return `<h2>Thanks for checking out my page</h2><Br>
     Don't miss out my Github or LinkedIn page, you find it in the top right corner.&#129109;
     <Br><Br>As you saw above on the competence bars, I have some more experience within
-    SEO. That experience is gained through another page I have, the other page is made with
-    Wordpress. It is about a Tattoo Artist.(my partner)<Br>
+    SEO. That experience is gained through another page I have wich is made with Wordpress.
+     It is about a Tattoo Artist(my partner).<Br>
     Go and check it out &#10547; <a href="https://beccastattooportfolio.com/">My Wordpress homepage</a>! 
     <Br><Br> 
     `
