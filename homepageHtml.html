@@ -53,10 +53,10 @@
     <div class="WrapUp">
         <div class="MobPush"></div>
         <div class="LPush"></div>
-        <div id="comp" class="Values Novice">Novice</div>
-        <div class="Values AdvBeg">Advanced Beginner</div>
-        <div class="Values Comp">Competent</div>
-        <div class="Values Expert">Expert</div>
+        <div id="comp" class="Values Novice" onmouseout="NormalBar(this)" onmouseover="ExplainBar(this)">Novice</div>
+        <div class="Values AdvBeg" onmouseout="NormalBar(this)" onmouseover="ExplainBar(this)">Advanced Beginner</div>
+        <div class="Values Comp" onmouseout="NormalBar(this)" onmouseover="ExplainBar(this)">Competent</div>
+        <div class="Values Expert" onmouseout="NormalBar(this)" onmouseover="ExplainBar(this)">Expert</div>
         <div class="LPush"></div>
         <div class="MobPush"></div>
 
@@ -68,28 +68,18 @@
             <Br><a href="#abtMe">&#11172;</a>
             <Br><a href="#enjoys">&#11174;</a></div>
 
-        <div class="Bars">
-            <h2>Competence</h2>
-            <p>// C#</p>
-            <div class="Competence CSharp"></div>
-            <p># Python</p>
-            <div class="Competence Python"></div>
-            <p>!- Html-></p>
-            <div class="Competence Html"></div>
-            <p>/* Css */</p>
-            <div class="Competence Css"></div>
-            <p>// Javascript</p>
-            <div class="Competence Js"></div>
-            <p>!- Xaml-></p>
-            <div class="Competence Xaml"></div>
-            <p>#Git</p>
-            <div class="Competence Git"></div>
-            <p>/// Visual studio/ Vs code</p>
-            <div class="Competence Vs"></div>
-            <p>// Wordpress</p>
-            <div class="Competence Wp"></div>
-            <p>// S E O</p>
-            <div class="Competence Seo"></div>
+        <div id="bars" class="Bars">
+            <p id="info">↑Hoover over level bars above for information.<Br><Br>←Hoover over any competence bar for information.</p>
+            <div class="Competence CSharp" onmouseout="NormalBar(this)" onmouseover="ExplainBar(this)"><p>// C#</p></div>
+            <div class="Competence Python" onmouseout="NormalBar(this)" onmouseover="ExplainBar(this)"><p>#Python</p></div>
+            <div class="Competence Html"  onmouseout="NormalBar(this)" onmouseover="ExplainBar(this)"><p>!- Html-></p></div>
+            <div class="Competence Css"  onmouseout="NormalBar(this)" onmouseover="ExplainBar(this)"> <p>/* Css */</p></div>
+            <div class="Competence Js"  onmouseout="NormalBar(this)" onmouseover="ExplainBar(this)"><p>// Javascript</p></div>
+            <div class="Competence Xaml"  onmouseout="NormalBar(this)" onmouseover="ExplainBar(this)"><p>!- Xaml-></p></div>
+            <div class="Competence Git"  onmouseout="NormalBar(this)" onmouseover="ExplainBar(this)"><p>#Git</p></div>
+            <div class="Competence Vs"  onmouseout="NormalBar(this)" onmouseover="ExplainBar(this)"><p>/// Visual studio/ Vs code</p></div>
+            <div class="Competence Wp"  onmouseout="NormalBar(this)" onmouseover="ExplainBar(this)"><p>// Wordpress</p></div>
+            <div class="Competence Seo"  onmouseout="NormalBar(this)" onmouseover="ExplainBar(this)"><p>// S E O</p></div>
         </div>
         <div class="LPush"></div>
     </div>

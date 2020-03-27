@@ -6,6 +6,7 @@ window.onload = function() {
 
 }
 
+
 function QuoteFrom() {
     return `<h4>
     Took this picture in 2018 enjoying an Irish coffee while trying to understand the C# language. It was
@@ -34,16 +35,6 @@ function AboutMe() {
     Well that is a little bit about my projects. Up next is my competence level.
 
     `
-        // But early in 2018 I started to look at programming. Why?<br><br>
-        // To start with, I used to be a superuser with the internal programs we used
-        // at work, and many times started to wonder how the programs were built.
-        // I made some research and eventually took the step into the world of programming.
-        // <br><br>
-        // A goal to become a Software Developer were set and I started to apply for courses, 
-        // to get where I am now.
-        // <Br><Br>
-        // Currently I am a Student who is striving to become better and better within programming. 
-        // `///
 }
 
 function Enjoying() {
@@ -66,11 +57,63 @@ function Enjoying() {
 
 function Footer() {
     return `<h2>Thanks for checking out my page</h2><Br>
-    Don't miss out my Github or LinkedIn page, you find it in the top right corner.&#129109;
-    <Br><Br>As you saw above on the competence bars, I have some more experience within
-    SEO. That experience is gained through another page I have wich is made with Wordpress.
-     It is about a Tattoo Artist(my partner).<Br>
-    Go and check it out &#10547; <a href="https://beccastattooportfolio.com/">My Wordpress homepage</a>! 
+    Chek out my Github or LinkedIn page, you find it in the top right corner.&#129109;
+    <Br><Br>
+     
+    Dont miss my Wordpress page &#10547; <a href="https://beccastattooportfolio.com/">My Wordpress homepage</a>! 
     <Br><Br> 
     `
+}
+function CSharp(bar){
+
+    if(bar.classList.contains("CSharp")){
+    
+    document.getElementsByClassName("infoLang").innerHtml = `<div class="infoLang">This is the language I took my first programming classes with.</div>`
+    
+    }else{
+        console.log("Hmm ngt fel");
+      
+    }
+}
+
+
+var showInfo = document.getElementById("info");
+var count = new Array();
+
+function ExplainBar(bar){
+
+   // showInfo.style.backgroundImage = "url(pics/testCode.png)";
+    showInfo.style.backgroundColor = "#37373D";
+    showInfo.style.fontSize = "33px";  
+    showInfo.style.color = "#CE9178";
+    if(bar.classList.contains("CSharp")){showInfo.style.boxShadow = "2px 2px 5px 2px #9CDCFE";showInfo.innerHTML = "I do enjoy writing in C#. One goal is to become an expert.<Br> The whole .net world is very interesting.<Br> A Long road awaits.";}
+    else if(bar.classList.contains("Python")){showInfo.style.boxShadow = "2px 2px 5px 2px #9CDCFE";showInfo.innerHTML = "I like Python and would really like to call myself competent of it one day. The struggle with the indentations are something else.";}
+    else if(bar.classList.contains("Html")){showInfo.style.boxShadow = "2px 2px 5px 2px #9CDCFE";showInfo.innerHTML = "Html is something i like to learn more about. Thats why im coding this right now.";}
+    else if(bar.classList.contains("Css")){showInfo.style.boxShadow = "2px 2px 5px 2px #9CDCFE";showInfo.innerHTML = "Same here as with the Html language.";}
+    else if(bar.classList.contains("Js")){showInfo.style.boxShadow = "2px 2px 5px 2px #9CDCFE";showInfo.innerHTML = "Have not used this as much as I would like to. Even thought this right here is made by it.";}
+    else if(bar.classList.contains("Xaml")){showInfo.style.boxShadow = "2px 2px 5px 2px #9CDCFE";showInfo.innerHTML = "This reminds me of Html.<Br> I have used it while coding UWP and Xamarin applications. I like it!";}
+    else if(bar.classList.contains("Git")){showInfo.style.boxShadow = "2px 2px 5px 2px #9CDCFE";showInfo.innerHTML = "I try to use Git as much as I can. Even in my own small projects. Such a great tool. Mostly used with GitHub.";}
+    else if(bar.classList.contains("Vs")){showInfo.style.boxShadow = "2px 2px 5px 2px #9CDCFE";showInfo.innerHTML = "Visual Studio and Visual Studio Code are the compilers i use.";}
+    else if(bar.classList.contains("Wp")){showInfo.style.boxShadow = "2px 2px 5px 2px #CE9178";showInfo.innerHTML = "Using Wordpress for a tattoo artist(my girlfriend). Link to that page at the bottom of this page.";}
+    else if(bar.classList.contains("Seo")){showInfo.style.boxShadow = "2px 2px 5px 2px #CE9178";showInfo.innerHTML = "Took a small education within search engine optimisation.<Br> Used that knowledge on the Wordpress page. ";}
+    else if(bar.classList.contains("Novice")){showInfo.style.boxShadow = "2px 2px 5px 2px #9CDCFE"; showInfo.style.color = "#9CDCFE"; showInfo.innerHTML = "This level is set after experience from coding at home and school. No workplace exeperience yet.";}
+    else if(bar.classList.contains("AdvBeg")){showInfo.style.boxShadow = "2px 2px 5px 2px #CE9178"; showInfo.style.color = "#CE9178"; showInfo.innerHTML = `This level is set after how much workplace experience gained.<Br> Or how much "real life" experience gained.`;}
+    else if(bar.classList.contains("Comp")){showInfo.style.boxShadow = "2px 2px 5px 2px #D7BA7D"; showInfo.style.color = "#D7BA7D"; showInfo.innerHTML = `This level is also set after how much workplace experience gained. But within this level atleast 2 years of experience. Combined with personal projects.`;}
+    else if(bar.classList.contains("Expert")){showInfo.style.boxShadow = "2px 2px 5px 2px #6A9955"; showInfo.style.color = "#6A9955"; showInfo.innerHTML = `This level is also set after how much workplace experience gained. But within this level atleast 5+ years of experience. Combined with personal projects.`;}
+
+    console.log(bar.style.backgroundColor);
+
+}
+
+function NormalBar(bar){
+   
+    showInfo.style.boxShadow = "0px 0px 0px 0px";
+    showInfo.style.color = "#6A9955";
+    showInfo.style.backgroundColor = "#1E1E1E";
+ 
+        count.push(bar.classList);
+        if(count.length > 8) showInfo.innerHTML = `Thanks for taking your time and reading!<Br><Br> You just checked<Br> <b>${bar.classList}</b> bar.`;
+        else showInfo.innerHTML = `↑Hoover over level bars above for information.<Br><Br>←Hoover over any competence bar for information.<Br><Br> You just checked<Br> <b>${bar.classList}</b> bar.`;
+    console.log(count.length);
+  
 }

@@ -42,13 +42,18 @@ h2 {
     font-size: 32px;
 }
 
-p {
-    font-size: 14px;
-    color: #6A9955;
-}
-
-
 /* My Competence */
+#info{
+    color: #6A9955;
+    text-align: center;
+    font-size: 33px;
+    width: 30%;
+    height: 30%;
+    background: rgba(30,30,30,0.4);
+    position: absolute;
+    right: 350px;
+    opacity: 0.8;
+}
 
 .Values {
     padding-top: 5px;
@@ -68,6 +73,9 @@ p {
 .Comp {
     width: 20%;
     background-color: #D7BA7D;
+    text-align: center;
+    position: relative;
+
 }
 
 .Expert {
@@ -78,18 +86,31 @@ p {
 .Bars {
     width: 80%;
     background-color: #1E1E1E;
-    padding: 0px 0px 10px;
+    padding: 0px 0px 5px;
+}
+
+.Competence p{
+        font-size: 18px;
+        color: #6A9955;  
+        text-align: center;
+}
+
+.MouseOverText{
+    font-size: 20px;
+    color: #6A9955;
 }
 
 .Competence {
-    padding-top: 5px;
-    padding-bottom: 2px;
+  
+    padding-bottom: 0.5px;
     color: white;
+    border-radius: 3px;
 }
 
 .CSharp {
     width: 23%;
     background-color: #9CDCFE;
+    
 }
 
 .Python {
@@ -123,7 +144,7 @@ p {
 }
 
 .Vs {
-    width: 22%;
+    width: 23%;
     background-color: #9CDCFE;
 }
 
@@ -517,9 +538,7 @@ p {
         font-weight: 700;
         
     }
-    
 
-    
     #picBackTwo {
         background-image: url("pics/mount.png");
     }
