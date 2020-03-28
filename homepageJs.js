@@ -7,6 +7,8 @@ window.onload = function() {
 }
 
 
+
+
 function QuoteFrom() {
     return `<h4>
     Took this picture in 2018 enjoying an Irish coffee while trying to understand the C# language. It was
@@ -75,7 +77,10 @@ function CSharp(bar){
       
     }
 }
-
+function AnimateBar(bar){
+    bar.style.width = "55%";
+    console.log("scrolling");
+}
 
 var showInfo = document.getElementById("info");
 var count = new Array();
@@ -112,7 +117,7 @@ function NormalBar(bar){
     showInfo.style.backgroundColor = "#1E1E1E";
  
         count.push(bar.classList);
-        if(count.length > 8) showInfo.innerHTML = `Thanks for taking your time and reading!<Br><Br> You just checked<Br> <b>${bar.classList}</b> bar.`;
+        if(count.length > 8) showInfo.innerHTML = `Thank you for taking your time to read!<Br><Br> You just checked<Br> <b>${bar.classList}</b> bar.`;
         else showInfo.innerHTML = `↑Hoover over level bars above for information.<Br><Br>←Hoover over any competence bar for information.<Br><Br> You just checked<Br> <b>${bar.classList}</b> bar.`;
     console.log(count.length);
   
