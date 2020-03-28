@@ -88,8 +88,7 @@ var count = new Array();
 function ExplainBar(bar){
 
    // showInfo.style.backgroundImage = "url(pics/testCode.png)";
-    showInfo.style.backgroundColor = "#37373D";
-    showInfo.style.fontSize = "33px";  
+    showInfo.style.backgroundColor = "#1E1E1E";
     showInfo.style.color = "#CE9178";
     if(bar.classList.contains("CSharp")){showInfo.style.boxShadow = "2px 2px 5px 2px #9CDCFE";showInfo.innerHTML = "I do enjoy writing in C#. One goal is to become an expert.<Br> The whole .net world is very interesting.<Br> A Long road awaits.";}
     else if(bar.classList.contains("Python")){showInfo.style.boxShadow = "2px 2px 5px 2px #9CDCFE";showInfo.innerHTML = "I like Python and would really like to call myself competent of it one day. The struggle with the indentations are something else.";}
@@ -100,7 +99,7 @@ function ExplainBar(bar){
     else if(bar.classList.contains("Git")){showInfo.style.boxShadow = "2px 2px 5px 2px #9CDCFE";showInfo.innerHTML = "I try to use Git as much as I can. Even in my own small projects. Such a great tool. Mostly used with GitHub.";}
     else if(bar.classList.contains("Vs")){showInfo.style.boxShadow = "2px 2px 5px 2px #9CDCFE";showInfo.innerHTML = "Visual Studio and Visual Studio Code are the compilers i use.";}
     else if(bar.classList.contains("Wp")){showInfo.style.boxShadow = "2px 2px 5px 2px #CE9178";showInfo.innerHTML = "Using Wordpress for a tattoo artist(my girlfriend). Link to that page at the bottom of this page.";}
-    else if(bar.classList.contains("Seo")){showInfo.style.boxShadow = "2px 2px 5px 2px #CE9178";showInfo.innerHTML = "Took a small education within search engine optimisation.<Br> Used that knowledge on the Wordpress page. ";}
+    else if(bar.classList.contains("Seo")){showInfo.style.boxShadow = "2px 2px 5px 2px #CE9178";showInfo.innerHTML = "Took a short education about search engine optimisation.<Br> Used that knowledge on the Wordpress page. ";}
     else if(bar.classList.contains("Novice")){showInfo.style.boxShadow = "2px 2px 5px 2px #9CDCFE"; showInfo.style.color = "#9CDCFE"; showInfo.innerHTML = "This level is set after experience from coding at home and school. No workplace exeperience yet.";}
     else if(bar.classList.contains("AdvBeg")){showInfo.style.boxShadow = "2px 2px 5px 2px #CE9178"; showInfo.style.color = "#CE9178"; showInfo.innerHTML = `This level is set after how much workplace experience gained.<Br> Or how much "real life" experience gained.`;}
     else if(bar.classList.contains("Comp")){showInfo.style.boxShadow = "2px 2px 5px 2px #D7BA7D"; showInfo.style.color = "#D7BA7D"; showInfo.innerHTML = `This level is also set after how much workplace experience gained. But within this level atleast 2 years of experience. Combined with personal projects.`;}

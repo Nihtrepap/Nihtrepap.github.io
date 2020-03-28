@@ -48,7 +48,7 @@ h2 {
     text-align: center;
     font-size: 33px;
     width: 30%;
-    height: 30%;
+    height: 35%;
     background: rgba(30,30,30,0.4);
     position: absolute;
     right: 350px;
@@ -75,7 +75,6 @@ h2 {
     background-color: #D7BA7D;
     text-align: center;
     position: relative;
-
 }
 
 .Expert {
@@ -105,9 +104,6 @@ h2 {
     padding-bottom: 0.5px;
     color: white;
     border-radius: 3px;
-}
-#bar{
-    
 }
 
 .CSharp {
@@ -398,6 +394,18 @@ h2 {
 }
 
 @media screen and (max-width: 1130px) {
+    #info{
+
+        font-size: 22px;
+        width: 30%;
+        height: 30%;
+        right: 200px;
+   
+    }
+    .Competence p{
+        font-size: 18px;
+
+    }
     #abtClick {
         padding: 100px;
     }
@@ -486,6 +494,19 @@ h2 {
 }
 
 @media screen and (max-width: 600px) {
+    /*Competence bars */
+    #info{
+
+        font-size: 16px;
+        width: 30%;
+        height: 40%;
+        right: 100px;
+   
+    }
+    .Competence p{
+        font-size: 12px;
+
+    }
     .LPush {
         width: 0%;
     }
@@ -503,9 +524,6 @@ h2 {
     .MobPushL{
         width: 20%;
     }
-    
-  
-    
     .Distance{
         padding: 60px;
     }
