@@ -6,9 +6,6 @@ window.onload = function() {
 
 }
 
-
-
-
 function QuoteFrom() {
     return `<h4>
     Took this picture in 2018 enjoying an Irish coffee while trying to understand the C# language. It was
@@ -66,21 +63,11 @@ function Footer() {
     <Br><Br> 
     `
 }
-function CSharp(bar){
 
-    if(bar.classList.contains("CSharp")){
-    
-    document.getElementsByClassName("infoLang").innerHtml = `<div class="infoLang">This is the language I took my first programming classes with.</div>`
-    
-    }else{
-        console.log("Hmm ngt fel");
-      
-    }
-}
-function AnimateBar(bar){
-    bar.style.width = "55%";
-    console.log("scrolling");
-}
+// function AnimateBar(bar){
+//     bar.style.width = "55%"; In progress
+//     console.log("scrolling");
+// }
 
 var showInfo = document.getElementById("info");
 var count = new Array();

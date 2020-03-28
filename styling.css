@@ -157,7 +157,6 @@ h2 {
     background-color: #CE9178;
 }
 
-
 /* HEADER */
 
 #frontBackground {
@@ -210,7 +209,6 @@ h2 {
     border-radius: 2px;
 }
 
-
 /* Arrow Element */
 
 .Arrows {
@@ -225,7 +223,6 @@ h2 {
     font-weight: 900;
 }
 
-
 /* Push Elements ( Horisontal ) */
 
 .PushS {
@@ -239,7 +236,6 @@ h2 {
 .LPush {
     width: 20%;
 }
-
 
 /* Distance Elements ( Vertical ) */
 
@@ -258,7 +254,6 @@ h2 {
     position: relative;
 }
 
-
 /* Container Element */
 
 .WrapUp {
@@ -270,7 +265,6 @@ h2 {
     text-decoration: none;
     text-align: center;
 }
-
 
 /* BODY Elements*/
 
@@ -375,19 +369,21 @@ h2 {
     color: #0077b5;
 }
 
-
 /* ADAPT ELEMENTS WITH PIXELS */
 
 @media screen and (max-width: 1400px) {
     #abtClick {
         padding: 120px;
     }
+    
     #compClick {
         padding: 120px;
     }
+
     #moreClick {
         padding: 120px;
     }
+
     .MySpan {
         font-size: 20px;
     }
@@ -395,23 +391,23 @@ h2 {
 
 @media screen and (max-width: 1130px) {
     #info{
-
         font-size: 22px;
         width: 30%;
         height: 30%;
-        right: 200px;
-   
+        right: 200px;   
     }
     .Competence p{
         font-size: 18px;
-
     }
+
     #abtClick {
         padding: 100px;
     }
+
     #compClick {
         padding: 100px;
     }
+
     #moreClick {
         padding: 100px;
     }
@@ -496,17 +492,17 @@ h2 {
 @media screen and (max-width: 600px) {
     /*Competence bars */
     #info{
-
         font-size: 16px;
         width: 30%;
         height: 40%;
-        right: 100px;
-   
+        right: 100px;  
     }
+
     .Competence p{
         font-size: 12px;
 
     }
+
     .LPush {
         width: 0%;
     }
@@ -518,15 +514,19 @@ h2 {
     .PushS {
         width: 4%;
     }
+
     .MobPush{
         width: 10%;
     }
+
     .MobPushL{
         width: 20%;
     }
+
     .Distance{
         padding: 60px;
     }
+
     #abtClick {
         width: 33%;
         height: 70px;
@@ -536,28 +536,32 @@ h2 {
         width: 33%;
         height: 70px;
     }
+
     #moreClick {
         width: 33%;
         height: 70px;
     }
+
     #enjoys {
         font-size: 16px;
         height: 800px;
     }
+
     .MediaWrap {
         font-size: 33px;
         position: fixed;
         z-index: 1;
     }
+
     .Arrows {
         width: 10%;
         padding: 400px 0px 0px;
     }
+
     .Arrows a {
         color: #0077b5;
         font-size: 40px;
-        font-weight: 700;
-        
+        font-weight: 700;      
     }
 
     #picBackTwo {
