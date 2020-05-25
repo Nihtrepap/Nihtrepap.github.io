@@ -86,12 +86,14 @@ h2 {
     width: 80%;
     background-color: #1E1E1E;
     padding: 0px 0px 5px;
+
 }
 
 .Competence p{
         font-size: 18px;
         color: #6A9955;  
         text-align: center;
+     
 }
 
 .MouseOverText{
