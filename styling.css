@@ -10,9 +10,60 @@ VS code greyMarked = 37373D
 VS code yellow = D7BA7D
 */
 
+.Boxes {
+    position: absolute;
+    width: 0px;
+    z-index: 1;
+    top:0px;
+    box-shadow: 35px -40px 35px 15px goldenrod; 
+}
+.Ramen{
+    cursor:pointer;
+}
+.Ramen:hover{
+    opacity: 0.7;
+}
+.loader {
+    border: 16px solid #f3f3f3;
+    border-radius: 60%;
+    border-top: 16px solid blue;
+    width: 120px;
+    height: 120px;
+    -webkit-animation: spin 2s linear infinite;
+    animation: spin 4s linear infinite;
+  }
+  
+  @-webkit-keyframes spin {
+    0% { -webkit-transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(360deg); }
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+
+ .stick{
+    position: -webkit-sticky;
+    position: sticky;
+    z-index: 1;
+    top: 0px;
+  }
+ .progress-container {
+    width: 100%;
+    height: 8px;
+    background: #37373D;
+  }
+  
+.progress-bar {
+    height: 8px;
+    background: #9CDCFE;
+    width: 0%;
+  }
+
 .fadePic {
     background-color: #37373D;
-    opacity: 0.8;
+    opacity: 0.9;
 }
 
 /* Elements */
@@ -164,7 +215,7 @@ h2 {
 #frontBackground {
     width: 100%;
     background-color: #CED4D4;
-    background-image: url("pics/testCode.png");
+    background-image: url("pics/testCodeTwo.png");
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -223,6 +274,18 @@ h2 {
     font-size: 50px;
     text-align: right;
     font-weight: 900;
+
+    text-decoration: none;
+    text-rendering: geometricPrecision;
+    position: relative;
+    display: block;
+    transition: transform .2s cubic-bezier(0.35, 0, 0.35, 0.2) , color .2s cubic-bezier(0.35, 0, 0.35, 0.2);
+    transform-origin: 50% 75%;
+}
+.Arrows a:hover {
+    position:relative;
+	color:#0577b0;
+    transform: scale(1.3);
 }
 
 /* Push Elements ( Horisontal ) */
@@ -285,10 +348,20 @@ h2 {
     border-radius: 2px;
     font-size: 43px;
     font-weight: bold;
+
+    text-decoration: none;
+    text-rendering: geometricPrecision;
+    position: relative;
+    display: block;
+    transition: transform .2s cubic-bezier(0.35, 0, 0.35, 0.2) , color .2s cubic-bezier(0.35, 0, 0.35, 0.2);
+    transform-origin: 50% 75%;
 }
 
 #abtClick:hover {
-    opacity: 0.7;
+	position:relative;
+	color:#70B046;
+    transform: scale(1.05);
+    box-shadow:0px 0px 6px 1px #000000;
 }
 
 #compClick {
@@ -299,11 +372,19 @@ h2 {
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 2px;
+
+    text-decoration: none;
+    text-rendering: geometricPrecision;
+    display: block;
+    transition: transform .2s cubic-bezier(0.35, 0, 0.35, 0.2) , color .2s cubic-bezier(0.35, 0, 0.35, 0.2);
+    transform-origin: 50% 75%;
 }
 
 #compClick:hover {
-    opacity: 0.7;
-}
+	position:relative;
+	color:#70B046;
+    transform: scale(1.05);
+    box-shadow:0px 0px 6px 1px #000000;}
 /**/
 #moreClick {
     width: 16%;
@@ -313,10 +394,19 @@ h2 {
     background-repeat: no-repeat;
     background-position: center;
     border-radius: 2px;
+
+    text-decoration: none;
+    text-rendering: geometricPrecision;
+    display: block;
+    transition: transform .2s cubic-bezier(0.35, 0, 0.35, 0.2) , color .2s cubic-bezier(0.35, 0, 0.35, 0.2);
+    transform-origin: 50% 75%;
 }
 
 #moreClick:hover {
-    opacity: 0.7;
+    position:relative;
+	color:#70B046;
+    transform: scale(1.05);
+    box-shadow:0px 0px 6px 1px #000000;
 }
 
 #abtMe {
@@ -329,6 +419,9 @@ h2 {
     text-indent: 0px;
     padding: 40px;
     border-radius: 2px;
+}
+#abtMe a{
+    color:#569CD6;
 }
 
 #enjoys {

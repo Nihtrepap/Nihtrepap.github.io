@@ -9,6 +9,7 @@
     <div class="MediaWrap">
         <a href="https://github.com/Nihtrepap" class="fa fa-github"></a>
         <a href="https://www.linkedin.com/in/philip-abrahamsson-bb00b2194/" class="fa fa-linkedin"></a>
+        <span href="#" class="Ramen" onclick="getMoreBoxes()">&#127836;</span>
     </div>
     <div id="frontBackground">
         <div class="fadePic">
@@ -22,17 +23,24 @@
                 <div class="MobPushL"></div>
             </div>
             <div class="Distance"></div>
+           
         </div>
     </div>
 </head>
 <body>
+    <div class="stick">
+        <div class="progress-container">
+            <div class="progress-bar" id="myBar"></div>
+            <div id="ramen"></div>
+          </div>  
+        </div>
     <div class="Distance"></div>
     <div class="WrapUp">
         <div class="LPush"></div>
         <a href="#abtMe">
             <div id="abtClick"></div><span class="MySpan">PROJECTS</span></a>
         <div class="PushS"></div>
-        <a href="#comp">
+        <a href="#bars">
             <div id="compClick"></div><span class="MySpan">COMPETENCE</span></a>
         <div class="PushS"></div>
         <a href="#enjoys">
@@ -45,7 +53,7 @@
         <div class="Arrows">
             <Br><a href="#frontBackground">&#8962;</a>
             <Br><a href="#abtClick">&#11172;</a>
-            <Br><a href="#comp">&#11174;</a></div>
+            <Br><a href="#bars">&#11174;</a></div>
         <div id="abtMe"></div>
         <div class="LPush"></div>
     </div>
@@ -53,10 +61,10 @@
     <div class="WrapUp">
         <div class="MobPush"></div>
         <div class="LPush"></div>
-        <div id="comp" class="Values Novice" onmouseout="NormalBar(this)" onmouseover="ExplainBar(this)">Novice</div>
-        <div class="Values AdvBeg" onmouseout="NormalBar(this)" onmouseover="ExplainBar(this)">Advanced Beginner</div>
-        <div class="Values Comp" onmouseout="NormalBar(this)" onmouseover="ExplainBar(this)">Competent</div>
-        <div class="Values Expert" onmouseout="NormalBar(this)" onmouseover="ExplainBar(this)">Expert</div>
+        <!-- <div id="comp" class="Values Novice" onscroll="Test(this)" onmouseout="NormalBar(this)" onmouseover="ExplainBar(this)">Novice</div>
+        <div class="Values AdvBeg" onscroll="Test(this)" onmouseout="NormalBar(this)" onmouseover="ExplainBar(this)">Advanced Beginner</div>
+        <div class="Values Comp" onscroll="Test(this)" onmouseout="NormalBar(this)" onmouseover="ExplainBar(this)">Competent</div>
+        <div class="Values Expert" onscroll="Test(this)" onmouseout="NormalBar(this)" onmouseover="ExplainBar(this)">Expert</div> -->
         <div class="LPush"></div>
         <div class="MobPush"></div>
     </div>
@@ -66,19 +74,19 @@
             <Br><a href="#frontBackground">&#8962;</a>
             <Br><a href="#abtMe">&#11172;</a>
             <Br><a href="#enjoys">&#11174;</a></div>
-        <div id="bars" class="Bars" onscroll="AnimateBar()">
-            <p id="info">↑Hoover over level bars above for information.<Br><Br>←Hoover over any competence bar for information.</p>
-            <div class="Competence CSharp"  onmouseout="NormalBar(this)" onmouseover="ExplainBar(this)"><p>// C#</p></div>
-            <div class="Competence Python" onscroll="AnimateBar(this)" onmouseout="NormalBar(this)" onmouseover="ExplainBar(this)"><p>#Python</p></div>
-            <div class="Competence Html"  onscroll="AnimateBar(this)" onmouseout="NormalBar(this)" onmouseover="ExplainBar(this)"><p>!- Html-></p></div>
-            <div class="Competence Css" onscroll="AnimateBar(this)" onmouseout="NormalBar(this)" onmouseover="ExplainBar(this)"> <p>/* Css */</p></div>
-            <div class="Competence Js" onscroll="AnimateBar(this)" onmouseout="NormalBar(this)" onmouseover="ExplainBar(this)"><p>// Javascript</p></div>
-            <div class="Competence Xaml" onscroll="AnimateBar(this)" onmouseout="NormalBar(this)" onmouseover="ExplainBar(this)"><p>!- Xaml-></p></div>
-            <div class="Competence Git" onscroll="AnimateBar(this)" onmouseout="NormalBar(this)" onmouseover="ExplainBar(this)"><p>#Git</p></div>
-            <div class="Competence Vs" onscroll="AnimateBar(this)" onmouseout="NormalBar(this)" onmouseover="ExplainBar(this)"><p>/// Visual studio/ Vs code</p></div>
-            <div class="Competence Wp" onscroll="AnimateBar(this)" onmouseout="NormalBar(this)" onmouseover="ExplainBar(this)"><p>// Wordpress</p></div>
-            <div class="Competence Seo" onscroll="AnimateBar()" onmouseout="NormalBar(this)" onmouseover="ExplainBar(this)"><p>// S E O</p></div>
-        </div>
+                <div class="LPush"></div>
+                <div class="heightPush"></div>
+            <div id="bars" class="loader" ></div> 
+            <!-- <div class="Competence CSharp basic"  data-skill="CSharp" onmouseout="NormalBar(this)" onmouseover="ExplainBar(this)"><p>// C#</p></div>
+            <div class="Competence Python learnig" data-skill="Python" onmouseout="NormalBar(this)" onmouseover="ExplainBar(this)"><p>#Python</p></div>
+            <div class="Competence Html learning" data-skill="Html" onmouseout="NormalBar(this)" onmouseover="ExplainBar(this)"><p>!- Html-></p></div>
+            <div class="Competence Css learning" data-skill="Css" onmouseout="NormalBar(this)" onmouseover="ExplainBar(this)"> <p>/* Css */</p></div>
+            <div class="Competence Js learning" data-skill="Javascript" onmouseout="NormalBar(this)" onmouseover="ExplainBar(this)"><p>// Javascript</p></div>
+            <div class="Competence Xaml basic" data-skill="Xaml" onmouseout="NormalBar(this)" onmouseover="ExplainBar(this)"><p>!- Xaml-></p></div>
+            <div class="Competence Git basic" data-skill="Git" onmouseout="NormalBar(this)" onmouseover="ExplainBar(this)"><p>#Git</p></div>
+            <div class="Competence Vs basic" data-skill="Vs" onmouseout="NormalBar(this)" onmouseover="ExplainBar(this)"><p>/// Visual studio/ Vs code</p></div>
+            <div class="Competence Wp basic" data-skill="Wp" onmouseout="NormalBar(this)" onmouseover="ExplainBar(this)"><p>// Wordpress</p></div>
+            <div class="Competence Seo expert" data-skill="Seo" onmouseout="NormalBar(this)" onmouseover="ExplainBar(this)"><p>// S E O</p></div>--->
         <div class="LPush"></div>
     </div>
     <div class="Distance"></div>
@@ -88,7 +96,7 @@
                 <div class="PushM"></div>
                 <div class="Arrows">
                     <Br><a href="#frontBackground">&#8962;</a>
-                    <Br><a href="#comp">&#11172;</a>
+                    <Br><a href="#bars">&#11172;</a>
                     <Br><a href="#foot">&#11174;</a>
                 </div>
                 <div id="enjoys"></div>
