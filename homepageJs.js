@@ -1,12 +1,15 @@
 window.onload = function() {
-    document.getElementById('frontQuote').innerHTML = QuoteFrom();
-    document.getElementById('abtMe').innerHTML = AboutMe();
-    document.getElementById('enjoys').innerHTML = Enjoying()
-    document.getElementById('foot').innerHTML = Footer()
+    document.getElementById('frontQuote').innerHTML = quoteFrom();
+    document.getElementById('abtMe').innerHTML = aboutMe();
+    document.getElementById('enjoys').innerHTML = enjoying();
+    document.getElementById('foot').innerHTML = footer();
+    document.getElementById('bars').innerHTML = competenceFunc();
+    document.getElementById('hardSkill').innerHTML = hardSkillFunc();
 
 }
 
 window.onscroll = function(){this.myFunction();}
+/*grabbed from wc3*/ 
 function myFunction() {
     var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
     var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
@@ -14,7 +17,7 @@ function myFunction() {
     document.getElementById("myBar").style.width = scrolled + "%";
   }
 
-function QuoteFrom() {
+function quoteFrom() {
     return `
    <h1> Welcome to my homepage.<h1>
     <h4>I am currently studying in Linköping to become a software developer.
@@ -22,7 +25,7 @@ function QuoteFrom() {
     <h1>Philip Abrahamsson<Br> <i>Aspiring software developer<i></h1><Br>`
 }
 
-function AboutMe() {
+function aboutMe() {
     return `<h2>Aspiring software developer!</h2>
     I have been working within the Graphical business for about ten years, 
     as a printmaker. But today I am aiming to become something else.<Br>
@@ -41,12 +44,12 @@ function AboutMe() {
      <Br><Br> Another old project I have is to help my partner
     with her company. So to help her I made a <a href="https://beccastattooportfolio.com/">homepage</a> with Wordpress and took a small course
     about SEO(search engine optimization).<Br><Br>
-    Well that is a little bit about my projects. Up next is my competence level.
+    Well that is a little bit about my projects.
 
     `
 }
 
-function Enjoying() {
+function enjoying() {
     return `<h2>When not practicing code</h2>
     I do love food, my favorite dish is not just one, but many! 
     From a bowl of ramen to a box with pizza. Sadly I am not the best chef, but I 
@@ -65,7 +68,7 @@ function Enjoying() {
 }
 
 
-function Footer() {
+function footer() {
     return `<h2>Thanks for checking out my page</h2><Br>
     Chek out my Github or LinkedIn page, you find it in the top right corner.&#129109;
     <Br><Br>
@@ -76,7 +79,7 @@ function Footer() {
 }
 var count = new Array();
 
-function AnimateBar(){
+function animateBar(){
     var showInfo = document.getElementById("bars").querySelectorAll(".Competence");
     var y = window.scrollY;
     console.log(y);
@@ -87,15 +90,13 @@ function AnimateBar(){
 //var showInfo = document.getElementById("info");
 var count = new Array();
 
-function ExplainBar(bar){
+function competenceFunc(){
+  return `<h2>Skills<h2>
+  <h4><center>I am determined to become a software developer.<center><h4>`
 
-   // showInfo.style.backgroundImage = "url(pics/testCode.png)";
-    // showInfo.style.backgroundColor = "#1E1E1E";
-    // showInfo.style.color = "#CE9178";
-    // if(bar.classList.contains("CSharp")){showInfo.style.boxShadow = "2px 2px 5px 2px #9CDCFE";showInfo.innerHTML = ;}
-
-    // console.log(bar.style.backgroundColor);
-
+}
+function hardSkillFunc(){
+    return`dsadsa`;
 }
 
 function NormalBar(bar){
