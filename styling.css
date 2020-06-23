@@ -25,24 +25,22 @@ VS code yellow = D7BA7D
 }
 /*RAMEN SEKTION END*/
 
-.loader {
-    border: 16px solid #f3f3f3;
-    border-radius: 60%;
-    border-top: 16px solid blue;
-    width: 120px;
-    height: 120px;
-    -webkit-animation: spin 2s linear infinite;
-    animation: spin 4s linear infinite;
-  }
-  
   @-webkit-keyframes spin {
-    0% { -webkit-transform: rotate(0deg); }
-    100% { -webkit-transform: rotate(360deg); }
+    0% { -webkit-transform: rotateY(0deg); }
+    100% { -webkit-transform: rotateY(360deg); }
   }
   
   @keyframes spin {
-    0% { transform: rotate(0deg); }
-    100% { transform: rotate(360deg); }
+    0% { transform: rotateY(0deg); }
+    100% { transform: rotateY(360deg); }
+  }
+  @keyframes MoveUpDown {
+    0%, 100% {
+      top: 50px;
+    }
+    50% {
+      top: 400px;
+    }
   }
 /*PROGRESS SCROLL BAR*/
  .stick{
@@ -115,103 +113,66 @@ h2 {
     padding-bottom: 5px;
 }
 
-.Novice {
-    width: 20%;
-    background-color: #9CDCFE;
-}
-
-.AdvBeg {
-    width: 20%;
-    background-color: #CE9178;
-}
-
-.Comp {
-    width: 20%;
-    background-color: #D7BA7D;
-    text-align: center;
-    position: relative;
-}
-
-.Expert {
-    width: 20%;
-    background-color: #6A9955;
-}
-
-/* .Bars {
-    width: 80%;
-    background-color: #1E1E1E;
-    padding: 0px 0px 5px;
-
-} */
-
 .Competence p{
-        font-size: 18px;
-        color: #6A9955;  
+        font-size: 25px;
+        color: White;  
         text-align: center;
      
 }
+
 
 .MouseOverText{
     font-size: 20px;
     color: #6A9955;
 }
 
+/*COMPETENCE SE*/
 .Competence {
-  
-    padding-bottom: 0.5px;
-    color: white;
-    border-radius: 3px;
+    position: relative;
+    width: 20%;
+    height: 20%;
+    text-align: center;
+    border-radius: 65px;
 }
+.Competence:hover {
+    animation: spin 4s linear infinite;
 
-.CSharp {
-    width: 23%;
-    background-color: #9CDCFE;
-    
 }
-
-.Python {
-    width: 18%;
-    background-color: #9CDCFE;
+.CompExplFont{
+    color:#37373D;
+    font-size: 17px;
 }
+.CompExplFontTwo{
+    color:#CE9178;
+    font-size: 17px;
 
-.Html {
-    width: 15%;
-    background-color: #9CDCFE;
 }
-
-.Css {
-    width: 15%;
-    background-color: #9CDCFE;
+.compColOne{
+    background-color: #569CD6;
 }
-
-.Js {
-    width: 13%;
-    background-color: #9CDCFE;
+.compColTwo{
+    background-color: #37373D;
 }
+.compColThree{
+    background-color: #6A9955;
 
-.Xaml {
-    width: 12%;
-    background-color: #9CDCFE;
 }
+.Spinner {
+    -webkit-animation: spin 2s linear infinite;
+    animation: spin 4s linear infinite;
 
-.Git {
-    width: 18%;
-    background-color: #9CDCFE;
 }
+.UpDownMoveF{
+    animation: MoveUpDown 5s linear infinite;
 
-.Vs {
-    width: 23%;
-    background-color: #9CDCFE;
 }
+.UpDownMoveM{
+    animation: MoveUpDown 6s linear infinite;
 
-.Wp {
-    width: 26%;
-    background-color: #CE9178;
 }
+.UpDownMoveS{
+    animation: MoveUpDown 8s linear infinite;
 
-.Seo {
-    width: 28%;
-    background-color: #CE9178;
 }
 
 /* HEADER */
@@ -306,7 +267,7 @@ h2 {
     width: 20%;
 }
 
-/* Distance Elements ( Vertical ) */
+/* "Distance" Elements ( Vertical ) */
 
 .Distance {
     padding: 95px;
@@ -430,9 +391,8 @@ h2 {
 }
 #bars{
     width: 60%;
-    background-color: #37373D;
     text-align: left;
-    opacity: 0.9;
+    display: flex;
 
 }
 .skill{
@@ -510,6 +470,7 @@ h2 {
     }
     .Competence p{
         font-size: 18px;
+
     }
 
     #abtClick {

@@ -3,7 +3,6 @@ window.onload = function() {
     document.getElementById('abtMe').innerHTML = aboutMe();
     document.getElementById('enjoys').innerHTML = enjoying();
     document.getElementById('foot').innerHTML = footer();
-    document.getElementById('bars').innerHTML = competenceFunc();
     document.getElementById('hardSkill').innerHTML = hardSkillFunc();
 
 }
