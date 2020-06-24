@@ -131,6 +131,8 @@ function getMoreBoxes() {
             box.id = "clones";
             box.innerHTML = "&#127836;";
             box.style.fontSize = "50px"
+            box.onclick = function(){ console.log(`clicked`); this.remove();};
+            box.style.cursor ="crosshair";
             
             move += Math.random() * 60;
             box.style.left = move + 'px';
@@ -138,8 +140,8 @@ function getMoreBoxes() {
             console.log(myBoxWithBoxes)
         }
         for (boxes in myBoxWithBoxes) {
-            console.log(boxes);
-            console.log(myBoxWithBoxes.length);
+           // console.log(boxes);
+            //console.log(myBoxWithBoxes.length);
             let name = myBoxWithBoxes[boxes].id = `clone${boxes}`;
             document.getElementById("ramen").appendChild(myBoxWithBoxes[boxes]);
             console.log(myBoxWithBoxes[boxes]);
@@ -148,6 +150,10 @@ function getMoreBoxes() {
         }
     }
 }
+function removeBox(box){
+    console.log(box);
+    box.remove();
+}
 /**This function is used to move elements.
  * It will go on forever.
  */
@@ -155,7 +161,6 @@ function moveBox(box) {
     let boxPosition = 1;
     var theBox = document.getElementById(box);
     setInterval(moveFrame, Math.random() * 15);
-
     function moveFrame() {
         if (boxPosition == 820) {
             boxPosition = 1;
@@ -178,7 +183,6 @@ function deleteAll() {
         }
     }
 }
-var explain = true;
 function mobileClick(element){
     window.alert(element.innerHTML);
     }
