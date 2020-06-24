@@ -539,29 +539,35 @@ h2 {
 @media screen and (max-width: 765px) {
 
     .MediaWrap {
-        font-size: 33px;
+        font-size: 30px;
         position: fixed;
+        padding:1px;
         right: 1%;
         z-index: 1;
     }
+    .stick{
+        position: -webkit-sticky;
+        position: sticky;
+        z-index: 1;
+        top: 10px;
+      }
     .fa {
         margin: 1px 3px;
         border-radius: 33px;
     }
     #frontBackground {
         width: 100%;
-        background-image: url("pics/testCode.png");
         background-repeat: no-repeat;
-        background-size: contain;
+        background-size: cover;
     }
     .Quote {
-        font-size: 22px;
+        font-size: 18px;
     }
     h1 {
-        font-size: 30px;
+        font-size: 22px;
     }
     h2 {
-        font-size: 25px;
+        font-size: 20px;
     }
     #abtClick {
         width: 16%;
@@ -595,18 +601,6 @@ h2 {
 }
 
 @media screen and (max-width: 600px) {
-    /*Competence bars */
-    #info{
-        font-size: 16px;
-        width: 30%;
-        height: 40%;
-        right: 100px;  
-    }
-
-    .Competence p{
-        font-size: 12px;
-
-    }
 
     .LPush {
         width: 0%;
@@ -617,47 +611,47 @@ h2 {
     }
     
     .PushS {
-        width: 4%;
+        width: 0%;
     }
 
     .MobPush{
-        width: 10%;
+        width: 1%;
     }
 
     .MobPushL{
-        width: 20%;
+        width: 10%;
     }
 
+    .MDistance{
+        padding: 20px;
+
+    }
     .Distance{
-        padding: 60px;
+        padding: 10px;
     }
 
     #abtClick {
-        width: 33%;
-        height: 70px;
+        width: 5px;
+        height: 50px;
     }
     
     #compClick {
-        width: 33%;
-        height: 70px;
+        width: 5px;
+        height: 50px;
     }
 
     #moreClick {
-        width: 33%;
-        height: 70px;
-    }
-
-    #enjoys {
-        font-size: 16px;
-        height: 800px;
+        width:5px;
+        height: 50px;
     }
 
     .MediaWrap {
         font-size: 33px;
-        position: fixed;
+        padding:10px;
+        position: fixed sticky;
         z-index: 1;
     }
-
+   
     .Arrows {
         width: 10%;
         padding: 400px 0px 0px;
@@ -672,4 +666,58 @@ h2 {
     #picBackTwo {
         background-image: url("pics/mount.png");
     }
+    /*COMPETENCE SE*/
+    @keyframes MoveUpDown {
+        0%, 100% {
+          top: 100px;
+        }
+        50% {
+          top: 250px;
+        }
+      }
+.CompetenceBall {
+    position: relative;
+    width: 30%;
+    height: 15%;
+    text-align: center;
+    border-radius: 55px;
+    right:40px;
+
+    text-rendering: geometricPrecision;
+    transition: transform .2s cubic-bezier(0.35, 0, 0.35, 0.2) , color .2s cubic-bezier(0.35, 0, 0.35, 0.2);
+    transform-origin: 50% 75%;
+}
+.CompetenceBall p{
+    font-size: 15px;
+    color: White;  
+    text-align: center;
+ 
+}
+
+.Competence {
+    position: relative;
+    text-align: center;
+    padding:10px 43px 10px 10px;
+    bottom: 250px;
+    transition: transform .2s cubic-bezier(0.35, 0, 0.35, 0.2) , color .2s cubic-bezier(0.35, 0, 0.35, 0.2);
+    font-size: 0px;
+}
+.Ramen{
+    visibility: hidden;
+}
+
+.Mobile {
+    text-align: center;
+    position: fixed;
+    font-size:14px;
+    padding:0px 4px 0px 0px;
+
+    height:150px;
+    width:150px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-70%);
+    box-shadow:0px 0px 6px 1px #000000;
+    z-index: 1;
+}
 }

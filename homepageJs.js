@@ -3,7 +3,6 @@ window.onload = function() {
     document.getElementById('abtMe').innerHTML = aboutMe();
     document.getElementById('enjoys').innerHTML = enjoying();
     document.getElementById('foot').innerHTML = footer();
-    document.getElementById('hardSkill').innerHTML = hardSkillFunc();
 
 }
 
@@ -179,3 +178,8 @@ function deleteAll() {
         }
     }
 }
+var explain = true;
+function mobileClick(element){
+    window.alert(element.innerHTML);
+    }
+    
