@@ -159,20 +159,16 @@ h2 {
 }
 .Competence:hover {
     position: relative;
-    transform: scale(1.1);
+    transform: scale(1.2);
     box-shadow:0px 0px 6px 1px #000000;
     z-index: 1;
 }
 
 .CompExplFont{
     color:#ffffff;
-    font-size: 17px;
+    font-size: 20px;
 }
-.CompExplFontTwo{
-    color:#f2f2f2;
-    font-size: 17px;
 
-}
 .compColOne{
     background-color: #569CD6;
 }
