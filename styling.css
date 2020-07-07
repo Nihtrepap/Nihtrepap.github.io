@@ -74,7 +74,7 @@ body {
 }
 
 html {
-    background-color: #fafafa;
+    background-color: #ffffff;
     scroll-behavior: smooth;
 }
 
@@ -112,9 +112,6 @@ h2 {
     padding-top: 5px;
     padding-bottom: 5px;
 }
-
-
-
 
 .MouseOverText{
     font-size: 20px;
@@ -154,7 +151,6 @@ h2 {
     border-radius: 5px;
     padding: 5px;
 
-
     text-decoration: none;
     text-rendering: geometricPrecision;
     display: block;
@@ -167,8 +163,6 @@ h2 {
     box-shadow:0px 0px 6px 1px #000000;
     z-index: 1;
 }
-
-
 
 .CompExplFont{
     color:#37373D;
@@ -250,7 +244,7 @@ h2 {
 
 .Quote {
     width: 60%;
-    color: #CED4D4;
+    color: #ffffff;
     text-align: center;
     background-color: #37373D;
     padding: 10px;
@@ -317,7 +311,6 @@ h2 {
 }
 
 /* Container Element */
-
 .WrapUp {
     display: flex;
     width: 100%;
@@ -411,7 +404,7 @@ h2 {
     width: 60%;
     background-color: #37373D;
     font-size: 25px;
-    color: #CE9178;
+    color: #ffffff;
     text-align: left;
     opacity: 0.9;
     text-indent: 0px;
@@ -428,7 +421,7 @@ h2 {
 
 }
 .skill{
-    color: #CE9178;
+    color: #ffffff;
     border-radius: 2px;
     font-size: 25px;
     z-index: 1;
@@ -438,7 +431,7 @@ h2 {
     width: 60%;
     background-color: #37373D;
     font-size: 25px;
-    color: #CE9178;
+    color: #ffffff;
     text-align: center;
     opacity: 0.9;
     text-indent: 2px;

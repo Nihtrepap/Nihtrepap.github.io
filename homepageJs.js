@@ -121,7 +121,7 @@ function getMoreBoxes() {
     else if(stopRamen)
     {
         stopRamen=false;
-        var move = 150;
+        var move = 350;
         var score = 0;
         var myBoxWithBoxes = new Array();
         for (i = 0; i < 10; i++) {
@@ -150,10 +150,7 @@ function getMoreBoxes() {
         }
     }
 }
-function removeBox(box){
-    console.log(box);
-    box.remove();
-}
+
 /**This function is used to move elements.
  * It will go on forever.
  */
