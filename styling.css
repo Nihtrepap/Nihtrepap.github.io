@@ -125,6 +125,7 @@ h2 {
     height: 20%;
     text-align: center;
     border-radius: 65px;
+    
 
     text-decoration: none;
     text-rendering: geometricPrecision;
@@ -134,7 +135,6 @@ h2 {
 }
 .CompetenceBall p{
     font-size: 25px;
-    color: White;  
     text-align: center;
  
 }
@@ -164,19 +164,20 @@ h2 {
     z-index: 1;
 }
 
-.CompExplFont{
-    color:#ffffff;
+.compColOne{
+    background-color: #ffffff;
+    color: #37373D;
     font-size: 20px;
+    border-color: #37373D;
+    border-style: dotted;
 }
 
-.compColOne{
-    background-color: #569CD6;
-}
-.compColTwo{
-    background-color: #37373D;
-}
 .compColThree{
-    background-color: #6A9955;
+    background-color: #37373D;
+    font-size: 20px;
+    color: #FFFFFF;
+    border-color: #FFFFFF;
+    border-style: dotted;
 
 }
 .Spinner {
